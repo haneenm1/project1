@@ -1,0 +1,146 @@
+.container {
+    display: grid;
+    width: 1000px;
+    grid-template-rows: 100px 550px 750px 60px;
+    margin: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+}
+
+
+.navbar1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+.box-main2 {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+
+}
+
+
+.Titel {
+    margin-right: 220px;
+    padding-left: 25px;
+    color: rgb(209, 209, 209);
+    font-size: 27px;
+
+}
+
+
+.subTitel {
+    position: relative;
+    top: -500px;
+    left: 610px;
+    z-index: 1;
+    width: 360px;
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(209, 209, 209);
+
+
+}
+
+.header-img {
+    width: 1000px;
+    filter: brightness(60%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.info-button {
+    position: relative;
+    top: -500px;
+    left: 610px;
+    z-index: 1;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: rgb(207, 207, 207);
+    color: rgb(77, 77, 77);
+    border: none;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+.main-img {
+    width: 340px;
+    margin-top: 110px;
+    filter: brightness(60%);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 25);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.main-titel {
+    position: relative;
+    top: 100px;
+    left: 25px;
+    z-index: 1;
+    width: 400px;
+    height: 50px;
+    font-size: 32px;
+    color: rgb(59, 59, 59);
+}
+
+#major {
+    margin-top: 150px;
+    width: 450px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#majorDescr {
+    margin-top: 50px;
+    width: 420px;
+    margin-left: 30px;
+    font-size: 17px
+}
+
+.main-button {
+    position: relative;
+    top: 45px;
+    left: 25px;
+    z-index: 1;
+    width: 220px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 6px;
+    background-color: rgba(94, 132, 175, 0.658);
+    color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.box-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+
+.ContactInfo {
+    color: rgb(224, 224, 224);
+}
+
+.ContactIcon {
+    width: 20px;
+    position: relative;
+    right: 5px;
+    top: 5px;
+}
+
+#ContactMe {
+    font-size: 21px;
+    color: rgb(224, 224, 224);
+
+}
+

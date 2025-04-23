@@ -1,0 +1,319 @@
+@import "post.css";
+@import "home.css";
+@import "core.css";
+
+
+@media (max-width: 900px)and(min-width:600px) {
+    .box-header {
+        width: 900px;
+
+    }
+
+    .container {
+        width: 900px;
+    }
+
+    .header-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .subTitel {
+        left: 500px;
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .info-button {
+        left: 500px;
+    }
+
+
+}
+
+ @media(max-width:600px) {
+    .box-header {
+        width: 600px;
+
+    }
+
+    .container {
+        width: 600px;
+    }
+
+
+    .header-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .subTitel {
+        left: 370px;
+        font-size: 20px;
+        width: 200px;
+        top: -320px;
+    }
+
+    .info-button {
+        left: 370px;
+        top: -320px;
+        width: 120px;
+        font-size: 13px;
+    }
+
+    .navbar1 {
+        position: relative;
+        right: 230px;
+    }
+
+    .box-main2 {
+        width: 600px;
+        margin-top: -200px;
+
+
+    }
+
+    .main-img {
+        display: none;
+    }
+
+    .main2 {
+        position: relative;
+        left: 90px;
+    }
+
+    .ContactInfo {
+
+        font-size: 10px;
+    }
+
+    .box-footer {
+        width: 600px;
+    }
+
+    #ContactMe {
+        display: none;
+    }
+
+
+}
+@media(max-width:320px) {
+    .box-header {
+        width: 320px;
+
+    }
+
+    .container {
+        width: 320px;
+    }
+
+    .header-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .subTitel {
+        left: 200px;
+        font-size: 10px;
+        width: 100px;
+        top: -190px;
+
+    }
+
+    .info-button {
+        left: 200px;
+        top: -190px;
+        font-size: 10px;
+        width: 80px;
+        height: 20px;
+    }
+
+    .box-footer {
+        width: 320px;
+    }
+
+    .Titel {
+        font-size: 15px;
+    }
+
+    .box-main2 {
+        width: 320px;
+        margin-top: -400px;
+
+
+    }
+
+    .main-img {
+        display: none;
+    }
+
+    .main2 {
+        position: relative;
+        left: 10px;
+
+    }
+
+    .main-titel {
+        font-size: 17px;
+        width: 200px;
+    }
+
+    #major,
+    #majorDescr {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .ContactInfo {
+        font-size: 10px;
+    }
+
+    .box-footer {
+        width: 320px;
+
+    }
+
+    #ContactMe {
+        display: none;
+    }
+
+    .ContactInfo {
+        display: none;
+    }
+
+}
+
+
+
+
+/*post */
+
+@media (max-width: 900px)and(min-width:600px) {
+    .box-header2 {
+        width: 900px;
+
+    }
+
+    .container2 {
+        box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+        width: 900px;
+
+    }
+
+    .SectionsConteiner {
+        margin-left: 25px;
+        width: 850px;
+
+    }
+
+    .Aboutme {
+        font-size: 18px;
+    }
+
+
+}
+
+@media(max-width:600px) {
+
+    .box-header2 {
+        width: 600px;
+
+    }
+
+    .container2 {
+        box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+        width: 600px;
+
+    }
+
+    .SectionsConteiner {
+        margin-left: 25px;
+        width: 550px;
+
+    }
+
+    .Aboutme {
+        font-size: 18px;
+    }
+
+    .navbar {
+        position: relative;
+        right: 230px;
+    }
+
+    .box-footer2 {
+        width: 600px;
+
+    }
+
+    #foterparg {
+        margin-left: 80px;
+        font-size: smaller;
+    }
+
+}
+
+@media(max-width:320px) {
+    .box-header2 {
+        width: 320px;
+
+    }
+
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .container2 {
+        box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+        width: 320px;
+
+    }
+
+    .Myphoto {
+        width: 200px;
+
+    }
+
+    .SectionsConteiner {
+        margin-left: 25px;
+        width: 270px;
+
+    }
+
+    .item {
+        font-size: smaller;
+    }
+
+    .info {
+        margin-left: -100px;
+
+
+    }
+
+    .Aboutme {
+        font-size: 13px;
+    }
+
+    .navbar {
+        position: relative;
+        right: 230px;
+    }
+
+    .box-footer2 {
+        width: 320px;
+
+    }
+
+    #foterparg {
+        margin-left: 80px;
+        font-size: smaller;
+    }
+
+
+}

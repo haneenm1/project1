@@ -1,0 +1,105 @@
+.container2 {
+    display: grid;
+    width: 1000px;
+    grid-template-rows: 1fr;
+    margin: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+    gap: 10px;
+    grid-template-columns: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.SubContainer {
+    display: grid;
+    grid-template-rows: 250px 280px;
+    width: 500px;
+    margin: auto;
+}
+
+.info-titel {
+    font-size: 36px;
+    margin-left: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.Myphoto {
+    border-radius: 50%;
+    width: 70%;
+    height: 130%;
+    filter: brightness(90%);
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    color: rgb(48, 48, 48);
+}
+
+.item {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#Nameitem {
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.infoimg {
+    width: 24px;
+    padding-right: 5px;
+}
+
+
+.SectionsConteiner {
+    background-color: rgba(255, 255, 255, 0.575);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 900px;
+    height: 400px;
+    margin: auto;
+}
+
+.Aboutme {
+    font-size: 18px;
+    margin-left: 15px;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contectimg {
+    width: 20px;
+    padding-right: 5px;
+}
+
+
+#figure {
+    text-align: center;
+}
+
+#AboutmeEduc {
+    margin-top: -40px;
+    font-size: 15px;
+}
+
+.contectColor {
+    color: rgb(0, 0, 0);
+}
+
+#foterparg {
+    margin-left: 200px;
+}
+
+
+
+
